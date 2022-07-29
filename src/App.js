@@ -1,21 +1,24 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
-import SeachIcon from "@mui/material"
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
+import Home from './Home';
+
 
 function App() {
   return (
-    <>
+    <home>
         
   <div className="App">
   </div>
-<h1>Hello lets build the Amazon Clone hekko  Website </h1>
+
+  y
+
   <Header/>
+  <Home/>
     {/*Header*/}
     {/*home*/}
 
-    </>
+    </home>
 
   );
 }
